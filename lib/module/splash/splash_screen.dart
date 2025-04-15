@@ -21,6 +21,7 @@ class _SplashScreenState extends State<SplashScreen>
     super.initState();
   }
 
+  /// ths is for navigate after 4 second
   _navigation() async {
     Future.delayed(const Duration(seconds: 4), () {
       if (mounted) {
